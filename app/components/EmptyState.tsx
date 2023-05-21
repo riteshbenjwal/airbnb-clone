@@ -11,7 +11,7 @@ interface EmptyState {
   showReset?: boolean;
 }
 
-const EmptyState: React.FC<EmptyState> = ({
+const EmptyState: React.FC<EmptyState | any> = ({
   title = "No exact matches",
   subtitle = "Try changing or removing some of your filters",
   showReset,
